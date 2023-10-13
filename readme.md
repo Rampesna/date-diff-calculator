@@ -44,7 +44,7 @@ class ExampleController extends Controller
         $minutes = $dateDiffCalculator->calculate();
         
         return response()->json(
-            $minutes
+            $dateDiffCalculator->getDurationForHuman($minutes)
         );
     }
 }
