@@ -24,7 +24,7 @@ composer require rampesna/date-diff-calculator
 
 ```php
 
-use Rampesna\JqxGrid;
+use Rampesna\DateDiffCalculator;
 
 class ExampleController extends Controller
 {
