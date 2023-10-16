@@ -10,7 +10,6 @@ a human readable format.
 ## Requirements
 
 - PHP >= 8.0
-- Illuminate/Support >= 8.0
 
 ## Installation
 
