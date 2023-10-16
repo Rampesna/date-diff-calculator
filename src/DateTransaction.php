@@ -12,7 +12,7 @@ class DateTransaction
         if (is_string($date)) {
             $this->date = new \DateTime($date);
         } else {
-            throw new \Exception("Invalid date format. Expected string.");
+            throw new \Exception("Invalid date format. The date must be a string and must be in the format 'Y-m-d H:i:s'");
         }
     }
 
