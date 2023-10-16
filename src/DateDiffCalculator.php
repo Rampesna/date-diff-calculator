@@ -2,7 +2,7 @@
 
 namespace Rampesna;
 
-use Illuminate\Support\Carbon;
+//use Illuminate\Support\Carbon;
 
 class DateDiffCalculator
 {
@@ -13,8 +13,8 @@ class DateDiffCalculator
     public function __construct($dailyWorkingHours, $startDate, $endDate)
     {
         $this->dailyWorkingHours = $dailyWorkingHours;
-        $this->startDate = Carbon::parse($startDate);
-        $this->endDate = Carbon::parse($endDate);
+        $this->startDate = new DateTransaction($startDate);
+        $this->endDate = new DateTransaction($endDate);
     }
 
     public function calculate()
