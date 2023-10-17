@@ -2,8 +2,6 @@
 
 namespace Rampesna;
 
-//use Illuminate\Support\Carbon;
-
 class DateDiffCalculator
 {
     private $dailyWorkingHours;
